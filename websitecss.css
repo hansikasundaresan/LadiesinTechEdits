@@ -1,0 +1,381 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  scroll-padding-top: 70px;
+}
+
+body {
+  margin: 0;
+  font-family: "itc eras std demi", -apple-system, BlinkMacSystemFont, "rockwell", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #212529;
+  text-align: left;
+  padding-top: 150px;
+  background-color: #fff;
+  scroll-padding-top: 70px;
+}
+
+#header{
+    z-index:1;
+    background-color: #44345c;
+    font-family: itc eras std demi;
+    padding: 50px 10px 50px 10px;/* Some padding */
+    text-align: left;
+    vertical-align: center;
+    align:center;
+    font-size: 90px; /* Big font size */
+    font-weight: bold;
+    float:left;
+    position: fixed; /* Fixed position - sit on top of the page */
+    top: 0; left: 0; right: 0;
+    width: 100%; /* Full width */
+    transition: 0.2s;
+}
+
+
+
+#headertxtwhite{
+    font-family:itc eras std demi;
+    font-size: 2.5rem;
+    padding-top:10px;
+    align:center;
+    vertical-align: middle;
+    color: white;
+    float: left;
+    text-align:left;
+    
+}
+
+#headertxtpink{
+    font-family:itc eras std demi;
+    font-size: 2.5rem;
+    align:center;
+    padding-top:10px;
+    vertical-align: center;
+    color: #cc425c;
+    float: left;
+    text-align:left;
+}
+
+
+#headerbuttons{
+    background: #44345c;
+    float: right;
+       font-family: rockwell;
+       vertical-align: middle;
+       align:center;
+       color: white;
+       width: 7.5%;
+       height: 40px;
+       font-size: 1.2rem;
+       text-align:left;
+       padding-top:10px;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+       padding:0;
+}
+
+li{
+    float: left;
+}
+
+
+a {
+  text-decoration:none;
+  color: inherit;
+}
+
+/* visited link */
+
+.announcement{
+    background-color: #ffb64e;
+    font-family: rockwell;
+    padding: 30px 10px 30px 10px;/* Some padding */
+    text-align: center;
+    align:center;
+    vertical-align: center;
+    color: white;
+    float:left;
+    font-size: 1.5rem; /* Big font size */
+    font-weight: bold;
+    width: 100%; /* Full width */
+}
+
+
+
+#announcement-text{
+    font-family: rockwell;
+    font-size: 1.5rem;
+    width:50%;
+    text-align:center;
+    vertical-align: center;
+    align:center;
+    float:left;
+    color: white;
+    
+}
+
+#announcement-link-text{
+    font-family: rockwell;
+    font-size: 1.3rem;
+    width:50%;
+    text-align:center;
+    vertical-align: center;
+    align:center;
+    color: white;
+    text-decoration: underline; bold; italic;
+    
+}
+
+.text-decoration-forlink{
+    font-family: rockwell;
+    color:#ffb64e;
+    text-decoration: underline; bold; italic;
+    font-size: 1.5rem;
+    
+}
+
+#lightgray-background{
+    background-color:#F5F5F5;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1, .h1 {
+  font-size: 2.5rem;
+}
+
+h2, .h2 {
+  font-size: 2rem;
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+
+#div-image{
+    background-color:white;
+    width: 50%;
+    margin: auto;
+    
+}
+
+img {
+  vertical-align: center;
+  align: center;
+  border-style: none;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.banner{
+    position: relative;
+    background-color:#cc425c;
+    font-family: itc eras std demi;
+    opacity: 0.8;
+    font-size: 2.3rem;
+    width:100%;
+    text-align:left;
+    vertical-align: center;
+    padding: 30px 10px 30px 20px;
+    color: white;
+    
+}
+
+.banner a {
+  position: absolute;
+  left: 0px;
+  top: -100px;
+}
+
+#info-txt{
+    background-color:#F5F5F5;
+    padding: 20px;
+    width=100%;
+    display: table;
+    height: auto;
+}
+
+
+.info-text-2colm1{
+    width:50%;
+    background-color:#F5F5F5;
+    float: left;
+    display: table-cell;
+    padding: 0px;
+    
+    
+}
+.info-text-2colm2{
+    width:50%;
+    background-color:#F5F5F5;
+    float: right;
+    display: table-cell;
+    padding: 0px;
+    
+    
+}
+
+.info-text-impt{
+   font-family: rockwell;
+    color: black;
+    text-align: center;
+    vertical-align: center;
+    float: left;
+    line-height: 1.75;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    opacity: 100%;
+}
+
+.info-text{
+    font-family: rockwell;
+    color: black;
+    text-align: left;
+    padding-top: 20px;
+    line-height: 2;
+    vertical-align: center;
+    float: left;
+    font-size: 1rem;
+    opacity: 100%;
+}
+
+.single-colmtxt-left{
+   font-family: rockwell;
+    color: black;
+    text-align: left;
+    vertical-align: center;
+    float: left;
+    line-height: 1.75;
+    padding: 20px;
+    font-size: 1.25rem;
+    opacity: 100%;
+}
+
+.single-colmtxt-center{
+   font-family: rockwell;
+    color: black;
+    text-align: center;
+    vertical-align: center;
+    float: left;
+    line-height: 1.75;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.25rem;
+    opacity: 100%;
+    width: 100%
+}
+
+.single-colmtxt-center-yellow{
+   font-family:rockwell;
+   color:#ffb64e;
+   text-decoration: underline; bold; italic;
+   font-size: 2rem;
+    text-align: center;
+    vertical-align: center;
+    float: left;
+    line-height: 1.75;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 100%;
+    width: 100%
+}
+
+iframe{
+    vertical-align: center;
+    align: center;
+    border-style: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+#big-box-full{
+    width=100%;
+    height: 200px;
+    align: center;
+    vertical-align: center;
+    text-align:center;
+    padding: 50px 50px 0px 50px;
+}
+
+
+#contact-images{
+    background-color:#F5F5F5;
+    padding: 20px;
+    width:100%;
+    display: table;
+    height: auto;
+    
+    
+}
+
+#image-2colm1{
+    margin-left: 20px;
+    vertical-align:center;
+    align:center;
+    float: center;
+    width:50%;
+    display:table-cell;
+}
+
+
+#image-2colm2{
+    margin-left: 20px;
+    vertical-align:center;
+    align:center;
+    float: center;
+    width:50%;
+    display:table-cell;
+    
+}
+
+.big-names{
+    font-family:rockwell;
+    color:#ffb64e;
+    text-decoration: underline; bold; italic;
+    font-size: 2rem;
+    
+}
+
+.color-purple{
+    color:#44345c;
+}
+
+
+#footer{
+    
+    clear: left;
+    width: 100%
+    background:#44345c;
+    color: white;
+    font-family: rockwell;
+    text-align: center;
+    padding: 4px;
+    
+}
