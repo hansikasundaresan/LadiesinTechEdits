@@ -101,6 +101,10 @@ a:hover{
     color:orange;
 }
 
+a img:hover{
+    opacity: 0.5;
+}
+
 /* visited link */
 
 .announcement{
