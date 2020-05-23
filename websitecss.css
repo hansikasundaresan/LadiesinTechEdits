@@ -19,10 +19,14 @@ body {
   scroll-padding-top: 70px;
 }
 
+.clear{
+    clear: both;
+}
+
 #header{
     z-index:1;
     background-color: #44345c;
-    font-family: itc eras std demi;
+    font-family: "itc eras std demi", futura;
     padding: 50px 10px 50px 10px;/* Some padding */
     text-align: left;
     vertical-align: center;
@@ -39,7 +43,7 @@ body {
 
 
 #headertxtwhite{
-    font-family:itc eras std demi;
+    font-family:"itc eras std demi", futura;
     font-size: 2.5rem;
     padding-top:10px;
     align:center;
@@ -51,7 +55,7 @@ body {
 }
 
 #headertxtpink{
-    font-family:itc eras std demi;
+    font-family:"itc eras std demi", futura;
     font-size: 2.5rem;
     align:center;
     padding-top:10px;
@@ -93,6 +97,10 @@ a {
   color: inherit;
 }
 
+a:hover{
+    color:orange;
+}
+
 /* visited link */
 
 .announcement{
@@ -131,6 +139,7 @@ a {
     vertical-align: center;
     align:center;
     color: white;
+    float:left;
     text-decoration: underline; bold; italic;
     
 }
@@ -184,8 +193,10 @@ h5, .h5 {
 }
 
 img {
+    position: relative;
   vertical-align: center;
   align: center;
+  display: inline-block;
   border-style: none;
   margin-left: auto;
   margin-right: auto;
@@ -196,7 +207,7 @@ img {
 .banner{
     position: relative;
     background-color:#cc425c;
-    font-family: itc eras std demi;
+    font-family: "itc eras std demi", futura;
     opacity: 0.8;
     font-size: 2.3rem;
     width:100%;
@@ -371,10 +382,11 @@ iframe{
 #footer{
     
     clear: left;
-    width: 100%
-    background:#44345c;
+    width: 100%;
+    background-color:#44345c ;
     color: white;
     font-family: rockwell;
+    font-size: 1rem;
     text-align: center;
     padding: 4px;
     
