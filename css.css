@@ -164,7 +164,6 @@ h5, .h5 {
 
 
 .banner{
-    position: relative;
     background-color:#cc425c;
     font-family: "itc eras std demi", futura, Roboto, "Segoe UI";
     opacity: 0.8;
@@ -187,27 +186,19 @@ h5, .h5 {
     background-color:#F5F5F5;
     padding: 20px;
     width:100%;
-    display: table;
     height: auto;
 }
 
 
 .info-text-2colm1{
-    width:50%;
     background-color:#F5F5F5;
-    float: left;
-    display: table-cell;
     padding: 0px;
     
     
 }
 .info-text-2colm2{
-    width:50%;
     background-color:#F5F5F5;
-    float: right;
-    display: table-cell;
     padding: 0px;
-    
     
 }
 
@@ -229,7 +220,6 @@ h5, .h5 {
     padding-top: 20px;
     line-height: 2;
     vertical-align: center;
-    float: left;
     font-size: 1rem;
     opacity: 100%;
 }
@@ -242,7 +232,6 @@ h5, .h5 {
     padding-top: 20px;
     line-height: 2;
     vertical-align: center;
-    float: left;
     font-size: 1rem;
     opacity: 100%;
 }
@@ -252,7 +241,6 @@ h5, .h5 {
     color: black;
     text-align: left;
     vertical-align: center;
-    float: left;
     line-height: 1.75;
     padding: 20px;
     font-size: 1.25rem;
@@ -264,7 +252,6 @@ h5, .h5 {
     color: black;
     text-align: center;
     vertical-align: center;
-    float: left;
     line-height: 1.75;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -280,7 +267,6 @@ h5, .h5 {
    font-size: 2rem;
     text-align: center;
     vertical-align: center;
-    float: left;
     line-height: 1.75;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -295,7 +281,6 @@ h5, .h5 {
    font-size: 2rem;
     text-align: left;
     vertical-align: center;
-    float: left;
     line-height: 1.75;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -327,7 +312,6 @@ iframe{
     margin-left: 20px;
     vertical-align:center;
     align:center;
-    float: center;
     width:50%;
     display:table-cell;
 }
@@ -337,7 +321,6 @@ iframe{
     margin-left: 20px;
     vertical-align:center;
     align:center;
-    float: center;
     width:50%;
     display:table-cell;
     
