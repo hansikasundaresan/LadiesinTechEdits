@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
    <meta name="Ladies In Tech Mentoring Program" content="The Ladies in Tech Mentoring Program aims to connect underclassmen with experienced mentors to help new students feel connected to the university, their major, and other women engineers and computer scientists.">
  
@@ -16,12 +16,12 @@
 
 </head>
 
-<body id="home">
+<body id="home" onload="load()">
 
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="padding: 0px; margin:0px;">
+<nav class="navbar navbar-expand-xl fixed-top navbar-dark" style="padding: 0px; margin:0px;">
     <div id="header">
 
-    <div class="container">
+    <div class="container" >
 
         <div class="headertxtwhite">Ladies in Tech <span class="headertxtpink"> Mentoring Program</div>
 
@@ -39,7 +39,7 @@
 
             <li class="nav-item headertxt">
 
-                <a class="nav-link" style="color:white" href="#home">Home</a>
+                <a class="nav-link js-scroll-trigger" style="color:white" href="#home">Home</a>
 
             </li>
 
@@ -47,31 +47,31 @@
 
             <li class="nav-item headertxt">
 
-                <a class="nav-link" style="color:white" href="#about">About</a>
+                <a class="nav-link js-scroll-trigger" style="color:white" href="#about">About</a>
 
             </li>
             
             <li class="nav-item headertxt">
 
-                           <a class="nav-link" style="color:white" href="#events">Events</a>
+                    <a class="nav-link js-scroll-trigger" style="color:white" href="#events">Events</a>
 
-                       </li>
+            </li>
 
            <li class="nav-item headertxt">
 
-               <a class="nav-link" style="color:white" href="#mentors">Mentors</a>
+               <a class="nav-link js-scroll-trigger" style="color:white" href="#mentors">Mentors</a>
 
            </li>
           
            <li class="nav-item headertxt">
 
-               <a class="nav-link" style="color:white" href="#mentees">Mentees</a>
+               <a class="nav-link js-scroll-trigger" style="color:white" href="#mentees">Mentees</a>
 
            </li>
 
             <li class="nav-item headertxt">
 
-                <a class="nav-link" style="color:white" href="#contact">Contact</a>
+                <a class="nav-link js-scroll-trigger" style="color:white" href="#contact">Contact</a>
 
             </li>
 
@@ -104,8 +104,8 @@
 
 
 
-<div class="banner container-fluid">
-       <a id="about"></a>About
+<div class="banner" id="about">
+       About
 </div>
 
 
@@ -119,22 +119,24 @@
 
 
 
-<div class="banner">
-       <a id="events"></a>Events
+<div class="banner" id="events">
+       Events
 </div>
 
 
 
 <div class="single-colmtxt-left">Ladies in Tech will be having regular workshops/socials for our mentors/mentee pairs the first week of every month. Topics will be on professional development and personal growth. Currently only date listed is the <span class="text-decoration-forlink"><a class="color-yellow" href="https://form.jotform.com/201128189221145" target="_blank" style="font-size: 1.25rem;">Mentor Application</a> </span>deadline.</div>
-<div id="div-image" class="container-fluid">
-    <iframe src="https://calendar.google.com/calendar/embed?src=en7t19avkh1f1nvumm3fn8hn8g%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0 font-family: Arial" width="700" height="525" frameborder="0" scrolling="no" ></iframe>
+<div id="div-image">
+    <div class="embed-responsive embed-responsive-4by3">
+      <iframe class="embed-responsive-item" src="https://calendar.google.com/calendar/embed?src=en7t19avkh1f1nvumm3fn8hn8g%40group.calendar.google.com&ctz=America%2FLos_Angeles"></iframe>
+    </div>
     
 </div>
 
 
 
-<div class="banner">
-       <a id="mentors"></a>Mentors
+<div class="banner" id="mentors">
+    Mentors
 </div>
 
 
@@ -168,8 +170,7 @@
 
 
 
-<div class="banner">
-       <a id="mentees"></a>Mentees
+<div class="banner" id="mentees">Mentees
 </div>
 
 
@@ -185,8 +186,8 @@
 
 
 
-<div class="banner">
-       <a id="contact"></a>Contact
+<div class="banner" id="contact">
+    Contact
 </div>
 
 
