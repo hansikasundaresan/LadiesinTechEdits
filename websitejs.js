@@ -8,6 +8,15 @@ function scrollFunction() {
   }
 }
 
+const mq = window.matchMedia( "(max-width: 767px)" );
+if (mq.matches) {
+var shiftWindow = function() { scrollBy(0, -180) };
+window.addEventListener("hashchange", shiftWindow);
+function load() { if (window.location.hash) shiftWindow(); }
+} else {
 var shiftWindow = function() { scrollBy(0, -100) };
 window.addEventListener("hashchange", shiftWindow);
 function load() { if (window.location.hash) shiftWindow(); }
+    
+}
+
