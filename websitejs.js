@@ -1,6 +1,4 @@
 window.onscroll = function() {scrollFunction()};
-window.onresize = function(){ location.reload(); }
-
 
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
@@ -11,6 +9,7 @@ function scrollFunction() {
 }
 
 const mq = window.matchMedia( "(max-width: 767px)" );
+
 if (mq.matches) {
 var shiftWindow = function() { scrollBy(0, -180) };
 window.addEventListener("hashchange", shiftWindow);
